@@ -37,8 +37,6 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     color: #FFFFFF;
 }
 
-
-
 .image {
     display: block;
     margin: 50px auto 20px auto;
@@ -46,6 +44,7 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     width: 80vw;
     height: 50vh;
 }
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -54,12 +53,14 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     display: flex;
     flex-wrap: wrap;
 }
+
 .container2{
 	flex-grow: 4;
 	display: flex;
     flex-wrap: wrap;
 	width: auto;
 }
+
 .item {
     flex-grow: 4;
     flex-basis: auto;
@@ -76,12 +77,12 @@ h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     margin: 24px auto 12px auto;
     color: #FFFFFF;
 }
+
 .line1 {width: 85vw;
     height: 0px;
     left: 154px;
     top: 242px;
     margin-top: 0;
-
     border: 2px solid #FFFFFF;
 }
 
