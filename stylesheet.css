@@ -59,7 +59,6 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 	width: 400px;
 	display: flex;
     flex-wrap: wrap;
-	width: auto;
 }
 
 .item {
