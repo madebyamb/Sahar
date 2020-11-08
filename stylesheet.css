@@ -37,6 +37,36 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     color: #FFFFFF;
 }
 
+h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    text-align: left;
+    margin: 24px auto 12px auto;
+    color: #FFFFFF;
+}
+h3 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    width: 80vw;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 113px;
+    text-align: left;
+    margin: 120px auto 60px auto;
+    color: #FFFFFF;
+}
+h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 60px auto 0px auto;
+    color: #FFFFFF;
+}
+.jaune{
+	font-family: 'HelveticaNeueLTPro-BdOu';
+	color: #ECC81A;
+}
 .image {
     display: block;
     margin: 50px auto 20px auto;
@@ -68,16 +98,6 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     margin-right: 26px;
     width: 123px;
 }
-
-h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5vw;
-    text-align: left;
-    margin: 24px auto 12px auto;
-    color: #FFFFFF;
-}
-
 .line1 {width: 85vw;
     height: 0px;
     left: 154px;
@@ -99,17 +119,6 @@ h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 ul{
     margin: 0;
     padding: 0;
-}
-
-h3 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
-    width: 80vw;
-	font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 113px;
-    text-align: left;
-    margin: 120px auto 60px auto;
-    color: #FFFFFF;
 }
 .cent {width: 40vw;
     margin: 60px auto 100px auto;
@@ -138,14 +147,7 @@ h3 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     margin-right: 26px;
     width: 123px;
 }
-h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
-    font-style: normal;
-    font-weight: 750;
-    font-size: 48px;
-    line-height: 58px;
-    margin: 60px auto 0px auto;
-    color: #FFFFFF;
-}
+
 .ddiivv{
     height:200px;
     width:400px;
