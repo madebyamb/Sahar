@@ -1,0 +1,164 @@
+body {background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: "Kingthings_Foundation";
+    src: url(font/Kingthings_Foundation.ttf);
+}
+
+@font-face{
+  font-family: "HelveticaNeueLTPro-Lt";
+  src: url(font/HelveticaNeueLTPro-Lt.otf);
+}
+
+@font-face{
+    font-family: "HelveticaNeueLTPro-Bd";
+    src: url(font/HelveticaNeueLTPro-Bd.otf);
+}
+
+@font-face{
+    font-family: "HelveticaNeueLTPro-BdOu";
+    src: url(font/HelveticaNeueLTPro-BdOu.otf);
+}
+
+  @font-face{
+    font-family: "HelveticaNeueLTPro-Hv";
+    src: url(font/HelveticaNeueLTPro-Hv.otf);
+}
+
+h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vw;
+    line-height: 169px;
+    text-align: center;
+    margin: 24px auto 12px auto;
+    color: #FFFFFF;
+}
+
+
+
+.image {
+    display: block;
+    margin: 50px auto 20px auto;
+    object-fit: cover;
+    width: 80vw;
+    height: 50vh;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    top: 242px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+	flex-grow: 4;
+	display: flex;
+    flex-wrap: wrap;
+	width: auto;
+}
+.item {
+    flex-grow: 4;
+    flex-basis: auto;
+    margin-left: 26px;
+    margin-right: 26px;
+    width: 123px;
+}
+
+h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 56px;
+    text-align: left;
+    margin: 24px auto 12px auto;
+    color: #FFFFFF;
+}
+.line1 {width: 85vw;
+    height: 0px;
+    left: 154px;
+    top: 242px;
+    margin-top: 0;
+
+    border: 2px solid #FFFFFF;
+}
+
+.line2 {width: auto;
+    border: 2px solid #FFFFFF;
+}
+
+.p1 {
+	font-size: 14px;
+    color: #FFF;
+    font-family: "HelveticaNeueLTPro-Lt", Helvetica, sans-serif ;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h3 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    width: 80vw;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    text-align: left;
+    margin: 120px auto 60px auto;
+    color: #FFFFFF;
+}
+.cent {width: 40vw;
+    margin: 60px auto 100px auto;
+    text-align: left;
+	font-size: 24px;
+    color: #FFF;
+    font-family: "HelveticaNeueLTPro-Lt", Helvetica, sans-serif ;
+}
+}
+.pking {
+    font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
+    text-align: left;
+	font-size: 24px;
+    color: #FFF;
+}
+.phelv {
+    font-family: 'Helvetica Neue LT Pro', 'Arial', Times, serif;
+    text-align: left;
+	font-size: 24px;
+    color: #FFF;
+}
+.item2 {
+    flex-grow: 4;
+    flex-basis: auto;
+    margin-left: 26px;
+    margin-right: 26px;
+    width: 123px;
+}
+h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 60px auto 0px auto;
+    color: #FFFFFF;
+}
+.maquette{
+    width: 247px;
+    height: 247px;
+    transition: 0.5s;
+
+}
+.maquette:hover{
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 875px) {
+    .cent{
+        width: 73vw;
+    }
+  }
