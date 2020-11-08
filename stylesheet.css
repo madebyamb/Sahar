@@ -56,6 +56,7 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 
 .container2{
 	flex-grow: 4;
+	width: 400px;
 	display: flex;
     flex-wrap: wrap;
 	width: auto;
@@ -156,7 +157,7 @@ h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
     margin-left: 100px;
 }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 1000px) {
     .cent{
         width: 73vw;
     }
