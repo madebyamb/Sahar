@@ -75,8 +75,8 @@
 			- Une seconde partie réalisé à partir d’une <span style="color:#ECC81A">maquette</span> puis <span style="color:#ECC81A">filmé sur une caméra</span>.<br><br>			
 			Le tout dans une ambiance de documentaire pour ne pas s’éloigner de la réalité de cette évènement.<br>
 			L’ensemble des images est traité avec du grain au format cinémascope 2,35:1 en plus d’un filtre particulier pour chacune des deux sections.</p>
-		<div>
-			<img src="https://www.w3schools.com/html/img_girl.jpg" class=maquette>
+		<div onmousemove="slide()" onmouseenter="In()" onmouseleave="Out()" class=ddiivv style="background-image: url('https://www.w3schools.com/html/img_chania.jpg');">
+			<img id="maq" src="https://www.w3schools.com/html/img_girl.jpg" class=maq>
 		</div>
 	</div>
 	
@@ -87,5 +87,16 @@ Finalisation = Montage Vidéo - Montage audio</p>
 	<p class=p2>Conception = Brainstorming - Définition du projet - Scénario&Ecriture - Storyboard - Agenda&Répartition du travail - DA
 Réalisation = Maquette physique - Tournage physique - Maquette Blender - Tournage sur Blender - Prise de Son 
 Finalisation = Montage Vidéo - Montage audio</p>
+	<script>
+	function In() {
+		document.getElementById("maq").style.animation= "mousein 5s infinite";
+	}
+	function Out() {
+		document.getElementById("maq").style.animation= "mouseout 5s infinite";
+	}
+	function slide() {
+		document.getElementById("maq").style.clip="rect(0px,"+event.offsetX+"px,200px,0px)";
+	}
+	</script>
 </body>
 </html>
