@@ -151,11 +151,12 @@ ul{
 #maq1{
     height: 20vw;
     background-repeat: no-repeat;
-    background-image: url('https://www.w3schools.com/html/img_chania.jpg');
+    background-image: url(image/nofilter.jpg);
 }
 #maq2{
     position: absolute;
     animation: mouseout 5s infinite;
+    src:"https://www.w3schools.com/html/img_girl.jpg";
 }
 @keyframes mouseout {
     0% {clip: rect(0,0px,20vw,0);}
