@@ -158,9 +158,9 @@ ul{
     animation: mouseout 5s infinite;
 }
 @keyframes mouseout {
-    0% {clip: rect(0,0px,200px,0);}
-    50% {clip: rect(0,400px,200px,0);}
-    100% {clip: rect(0,0px,200px,0);}
+    0% {clip: rect(0,0px,20vw,0);}
+    50% {clip: rect(0,40vw,20vw,0);}
+    100% {clip: rect(0,0px,20vw,0);}
 }
 @keyframes mousein {
     0% {position: absolute;}
