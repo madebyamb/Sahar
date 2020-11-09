@@ -148,9 +148,11 @@ ul{
     width: 123px;
 }
 
-.ddiivv{
+.maq{
     height:200px;
     width:400px;
+    background-repeat: no-repeat;
+    background-image: url('https://www.w3schools.com/html/img_chania.jpg');
 }
 #maq{
     position: absolute;
