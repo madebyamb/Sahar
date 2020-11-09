@@ -169,4 +169,9 @@ ul{
     .cent{
         width: 73vw;
     }
+    @keyframes mouseout {
+        0% {clip: rect(0,0px,20vw,0);}
+        50% {clip: rect(0,73vw,20vw,0);}
+        100% {clip: rect(0,0px,20vw,0);}
+    }
   }
