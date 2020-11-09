@@ -171,9 +171,10 @@ ul{
     .cent{
         width: 73vw;
     }
-    @keyframes mouseout {
-        0% {clip: rect(0,0px,41.0625vw,0);}
-        50% {clip: rect(0,73vw,41.0625vw,0);}
-        100% {clip: rect(0,0px,41.0625vw,0);}
+    #maq1{
+	height:41.0625vw;
+    }
+    #maq2{
+	width:73vw;
     }
   }
