@@ -86,7 +86,7 @@ h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
 
 .container2{
 	flex-grow: 4;
-	width: 80vw;
+	width: 40vw;
 	display: flex;
     flex-wrap: wrap;
 }
