@@ -149,12 +149,13 @@ ul{
 }
 
 #maq1{
-    height: 20vw;
+    height: 22.5vw;
     background-repeat: no-repeat;
     background-image: url(image/nofilter.jpg);
     background-size: 100% 100%;
 }
 #maq2{
+    width:40vw;
     position: absolute;
     animation: mouseout 5s infinite;
 }
