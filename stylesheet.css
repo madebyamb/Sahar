@@ -152,15 +152,16 @@ ul{
     height: 20vw;
     background-repeat: no-repeat;
     background-image: url(image/nofilter.jpg);
+    background-size: 100% 100%;
 }
 #maq2{
     position: absolute;
     animation: mouseout 5s infinite;
 }
 @keyframes mouseout {
-    0% {clip: rect(0,0px,20vw,0);}
-    50% {clip: rect(0,40vw,20vw,0);}
-    100% {clip: rect(0,0px,20vw,0);}
+    0% {clip: rect(0,0px,41vw,0);}
+    50% {clip: rect(0,40vw,41vw,0);}
+    100% {clip: rect(0,0px,41vw,0);}
 }
 @keyframes mousein {
     0% {position: absolute;}
@@ -170,8 +171,8 @@ ul{
         width: 73vw;
     }
     @keyframes mouseout {
-        0% {clip: rect(0,0px,20vw,0);}
-        50% {clip: rect(0,73vw,20vw,0);}
-        100% {clip: rect(0,0px,20vw,0);}
+        0% {clip: rect(0,0px,22.5vw,0);}
+        50% {clip: rect(0,73vw,22.5vw,0);}
+        100% {clip: rect(0,0px,22.5vw,0);}
     }
   }
