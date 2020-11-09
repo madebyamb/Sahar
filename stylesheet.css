@@ -148,14 +148,13 @@ ul{
     width: 123px;
 }
 
-#maq2{
-    height: 20vw
+#maq1{
+    height: 20vw;
     background-repeat: no-repeat;
     background-image: url('https://www.w3schools.com/html/img_chania.jpg');
 }
 #maq2{
     position: absolute;
-    clip: rect(0px,0px,200px,0px);
     animation: mouseout 5s infinite;
 }
 @keyframes mouseout {
