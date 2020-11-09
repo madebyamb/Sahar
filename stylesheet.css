@@ -156,7 +156,6 @@ ul{
 #maq2{
     position: absolute;
     animation: mouseout 5s infinite;
-    src:url(image/filter.jpg);
 }
 @keyframes mouseout {
     0% {clip: rect(0,0px,20vw,0);}
