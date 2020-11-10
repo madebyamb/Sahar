@@ -171,6 +171,7 @@ ul{
 @media only screen and (max-width: 1000px) {
     .cent{
         width: 73vw;
+	    font-size: 18px;
     }
     #maq1{
 	height:41.0625vw;
