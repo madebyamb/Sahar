@@ -168,7 +168,7 @@ ul{
 @keyframes mousein {
     0% {position: absolute;}
 }
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 1000px) {
     .cent{
         width: 73vw;
     }
