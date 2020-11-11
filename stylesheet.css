@@ -201,7 +201,7 @@ ul{
     color: #ECC81A;
 }
 .b {
-    color: #FFFFFF;
+    color: rgba(255,255,255,0.5);
 }
 @media only screen and (max-width: 999.5px) {
     .cent{
