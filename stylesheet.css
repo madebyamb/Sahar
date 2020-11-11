@@ -76,7 +76,7 @@ h5 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
 }
 .video {
     display: block;
-    margin: 50px auto 20px auto;
+    margin: 50px auto 10px auto;
     object-fit: cover;
     width: 80vw;
     height: 50vh;
