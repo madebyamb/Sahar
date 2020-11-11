@@ -120,6 +120,11 @@ a {
     margin-right: 26px;
     width: 148px;
 }
+.item2 {
+    flex-grow: 0;
+    flex-basis: auto;
+    width: 17vw;
+}
 .line1 {width: 85vw;
     height: 0px;
     left: 154px;
@@ -158,14 +163,6 @@ ul{
     color: #FFF;
     font-family: "HelveticaNeueLTPro-Lt", Helvetica, sans-serif ;
 }
-.item2 {
-    flex-grow: 4;
-    flex-basis: auto;
-    margin-left: 26px;
-    margin-right: 26px;
-    width: 131px;
-}
-
 #maq1{
     height: 22.5vw;
     background-repeat: no-repeat;
@@ -207,6 +204,9 @@ ul{
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    .item2 {
+        width: 32vw;
+    }
     #maq1{
 	height:41.0625vw;
     }
@@ -228,6 +228,8 @@ ul{
         width: 73vw;
     }
   }
-  @media only screen and (max-width: 500px) {
-      
+@media only screen and (max-width: 500px) {
+    .item2 {
+    width: 70vw;
     }
+}
