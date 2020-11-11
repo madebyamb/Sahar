@@ -149,7 +149,7 @@ h5 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
 }
 a:link, a:visited{
     color: #fff;
-    cursor: url('image/pointer.png');
+    cursor: url('image/pointer.png'), auto;
 }
 
 ul{
