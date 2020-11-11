@@ -193,7 +193,17 @@ ul{
 @-webkit-keyframes mousein {
     0% {position: absolute;}
 }
-@media only screen and (max-width: 1000px) {
+
+.item3 {
+    width: 15vw;
+}
+.j {
+    color: #ECC81A;
+}
+.b {
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 999.5px) {
     .cent{
         width: 73vw;
     }
@@ -207,6 +217,9 @@ ul{
     .item2 {
         width: 32vw;
     }
+	.item3 {
+		width: 34vw;
+	}
     #maq1{
 	height:41.0625vw;
     }
@@ -228,8 +241,13 @@ ul{
         width: 73vw;
     }
   }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 499.5px) {
     .item2 {
-    width: 70vw;
+	width: 70vw;
+    }
+    .item3 {
+	width: 70vw;
     }
 }
+
+
