@@ -61,6 +61,7 @@ h3 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 }
 h4 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
     font-size: 3ch;
+	font-weight: normal;
     margin: 60px auto 0px auto;
     color: #FFFFFF;
 }
