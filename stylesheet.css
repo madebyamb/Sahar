@@ -107,10 +107,10 @@ a {
     flex-wrap: wrap;
 }
 .container3{
-    flex-grow: 4;
-	width: 40vw;
-	display: flex;
+    width: 40vw;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .item {
