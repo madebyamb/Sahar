@@ -81,7 +81,7 @@ h5 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
     width: 80vw;
     height: 50vh;
 }
-a {
+.nounderline {
   text-decoration: none;
 }
 .centerimage {
@@ -149,7 +149,7 @@ a {
 }
 a:link, a:visited{
     color: #fff;
-    cursor: pointer;
+    cursor: pointer;u
 }
 
 ul{
