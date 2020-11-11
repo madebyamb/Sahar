@@ -31,6 +31,11 @@ html {
     src: url(font/HelveticaNeueLTPro-Hv.otf);
 }
 
+@font-face{
+    font-family: "HelveticaNeueLTPro-MdEx";
+    src: url(font/HelveticaNeueLTPro-MdEx.otf);
+}
+
 h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     font-weight: normal;
     font-size: 10vw;
@@ -146,6 +151,12 @@ h5 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
 	font-size: 14px;
     color: #FFF;
     font-family: "HelveticaNeueLTPro-Lt", Helvetica, sans-serif ;
+}
+.p2 {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'HelveticaNeueLTPro-MdEx', Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 a:link, a:visited{
     color: #fff;
