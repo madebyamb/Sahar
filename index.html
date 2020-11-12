@@ -60,7 +60,7 @@
 		<hr class=line2>
 		<ul class=container3>
 			<il class=item2>
-				<img src="image/king.jpg" class="item2" style="border: 1px solid white;">
+				<img src="image/king.jpg" class="item2" style="border: 1px solid white; cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(1)">
 				<p style="font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 				text-align: left;
 				color: #FFF;">
@@ -69,7 +69,7 @@
 				</p>
 			</il>
 			<il class=item2>
-				<img src="image/helve.jpg" class="item2" style="border: 1px solid white;">
+				<img src="image/helve.jpg" class="item2" style="border: 1px solid white; cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(2)">
 				<p class=phelv>
 					Utilisation:<br><br>
 					<a href="https://www.arte.tv/en/" target="_blank" style="font-family: 'HelveticaNeueLTPro-Bd'; color: #ECC81A;">Sous titres à la "arte"</a><br>
@@ -78,7 +78,7 @@
 				</p>
 			</il>
 		</ul>
-		<img class=centerimage src="image/subs.jpg">
+		<img class=centerimage src="image/subs.jpg" style="cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(3)">
 		<p class="p0">Un travail particulié a été fourni concernant les sous-titres afin d’obtenir l’effet documentaire recherché.<br>
 		<a href="https://docs.google.com/document/d/1o52DmW7_G-6_v_cAN1nYVrZ_Yl2kbV45bFsuV6yRcQ8/edit?usp=sharing" target="_blank">La documentation est disponible ici.</a></p>
 		<h4>L'image</h4>
@@ -89,8 +89,8 @@
 			- Une seconde partie réalisé à partir d’une <span class="jaune">maquette</span> puis <span class="jaune">filmé sur une caméra</span>.<br><br>			
 			Le tout dans une ambiance de documentaire pour ne pas s’éloigner de la réalité de cette évènement.<br>
 			L’ensemble des images est traité avec du grain au format cinémascope 2,35:1 en plus d’un filtre particulier pour chacune des deux sections.</p>
-			<div><img class=centerimage src="image/3Dfilter.gif"></div>
-		<div onmousemove="slide()" onmouseenter="In()" onmouseleave="Out()" id="maq1" class=cent>
+			<div><img class=centerimage src="image/3Dfilter.gif" style="cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(4)"></div>
+		<div onmousemove="slide()" onmouseenter="In()" onmouseleave="Out()" id="maq1" class=cent style="cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(5)">
 			<img id="maq2" src="image/filter.jpg">
 		</div>
 		<ul class=container3>
@@ -107,7 +107,7 @@
 				La maquette a principalement été réalisé à partir de matériaux de récupération, puis peinte à la bombe blanche pour homogéiniser le tout.<br>
 				Nous avons improvisé un studio pour obtenir un décor décent lors du tournage.<br>
 				L’ensemble pour un budget de 8€.</p>
-				<img class="item2" src="image/maquette.gif">
+				<img class="item2" src="image/maquette.gif" style="cursor: url('image/pointer.svg'), auto;" onclick="openModal();currentSlide(8)">
 			</il>
 		</ul>
 	</div>
@@ -149,7 +149,57 @@
 				<p class="p0"><span style="font-family: 'HelveticaNeueLTPro-Bd';font-weight: normal;color: #FFF;">Contact</span><br><br>ambroise.nicolao@gmail.com</p>
 			</il>
 		</ul>
-		
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<div class="mySlides">
+					<div class="numbertext">1 / 11</div>
+					<img src="image/king.jpg" class="modal-img">
+			 	 </div>
+			 	 <div class="mySlides">
+					<div class="numbertext">2 / 11</div>
+					<img src="image/helve.jpg" class="modal-img">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">3 / 11</div>
+					<img src="image/subs.jpg" class="modal-img">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">4 / 11</div>
+					<img src="image/3Dfilter.gif" class="modal-img">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">5 / 11</div>
+					<img src="image/filter.jpg" class="modal-img">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">6 / 11</div>
+					<img src="image/3Dobj.gif" class="modal-img">
+			  	</div>
+			  	<div class="mySlides">
+					<div class="numbertext">7 / 11</div>
+					<img src="image/3Dwire.gif" class="modal-img">
+			 	 </div>
+			 	 <div class="mySlides">
+					<div class="numbertext">8 / 11</div>
+					<img src="image/maquette.gif" class="modal-img">
+			  	</div>
+			 	<div class="mySlides">
+					<div class="numbertext">9 / 11</div>
+					<img src="image/001.jpg" class="modal-img">
+			  	</div>
+			  	<div class="mySlides">
+					<div class="numbertext">10 / 11</div>
+					<img src="image/received_1305299059493890.jpeg" class="modal-img">
+			  	</div>
+			  	<div class="mySlides">
+					<div class="numbertext">11 / 11</div>
+					<img src="image/002.jpg" class="modal-img">
+			 	 </div>
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		  </div>		  
 	<script>
 	function In() {
 		document.getElementById("maq2").style.animation= "mousein 5s infinite";
@@ -159,6 +209,44 @@
 	}
 	function slide() {
 		document.getElementById("maq2").style.clip="rect(0px,"+event.offsetX+"px,41.0625vw,0px)";
+	}
+
+	//modal
+	function openModal() {
+	  	document.getElementById("myModal").style.display = "block";
+	}
+
+	function closeModal() {
+		document.getElementById("myModal").style.display = "none";
+	}
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("demo");
+	var captionText = document.getElementById("caption");
+	if (n > slides.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = slides.length}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active";
+	captionText.innerHTML = dots[slideIndex-1].alt;
 	}
 	</script>
 </body>
