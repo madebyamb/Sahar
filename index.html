@@ -181,6 +181,10 @@
 		<hr class=line2>
 	</div>
 	<img src="image/Sahar.jpg" style="width: 20vw; margin: 120px auto 0 auto; display: block;">
+	<a href=""><div class="button_anim" onmousemove="idk(this)" onmouseleave="leave(this)">
+            <p class="button_anim2">Click</p>
+        </div></a>
+
 	<p style="text-align: center; font-family: 'Kingthings_Foundation'; font-size: 14px; color: #FFF; margin-bottom: 35vh;">En mémoire de Sahar</p>
 		<div id="myModal" class="modal">
 			<span class="close cursor" onclick="closeModal()">&times;</span>
@@ -274,6 +278,49 @@
 	}
 	slides[slideIndex-1].style.display = "block";
 	}
+	/*Button*/
+	var e = document.getElementsByClassName("button_anim")[0];
+            var x=e.offsetWidth /2-e.children[0].offsetWidth/2;
+            var y=e.offsetHeight/2-e.children[0].offsetHeight/2;
+            var xa=50;
+            var ya=20;
+            var prevx=x;
+            var prevy=y;
+            var prevxa=xa;
+            var prevya=ya;
+            var b=10;
+            var prevb=b;
+            var col=255;
+            function myMove() {
+                var pos = 0;
+                var id = setInterval(frame, 10);
+                function frame() {
+                    prevx+=.05*(x-prevx);
+                    prevy+=.05*(y-prevy);
+                    prevb+=.05*(b-prevb);
+                    prevxa+=.05*(xa-prevxa);
+                    prevya+=.05*(ya-prevya);
+                    e.children[0].style.borderRadius= Math.min(prevxa,prevya)/2+"px";                    
+                    e.children[0].style.width=prevxa+"px";
+                    e.children[0].style.height=prevya+"px";
+                    e.children[0].style.backgroundColor="rgb("+col+","+col+","+col+")";
+                    e.children[0].style.transform="translate("+prevx+"px,"+prevy+"px)";
+                }
+            }
+            function idk(e) {
+                x=(event.x-e.offsetLeft-e.offsetWidth /2)*.65+e.offsetWidth /2-e.children[0].offsetWidth/2;
+                y=(event.y-e.offsetTop -e.offsetHeight/2)*.65+e.offsetHeight/2-e.children[0].offsetHeight/2;
+                xa=80;
+                ya=40;
+                col=255;
+            }
+            function leave(e) {
+                xa=50;
+                ya=20;
+                x=e.offsetWidth/2 -xa/2;
+                y=e.offsetHeight/2 -ya/2;
+                col=0;
+            }
 	</script>
 </body>
 </html>
