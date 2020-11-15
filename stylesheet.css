@@ -221,6 +221,23 @@ ul{
 .button:hover {
     padding:0px 0 30px 0;
 }
+/*button*/
+.button_anim {
+                background-color: black;
+                width: 200px;
+                height: 200px;
+                font-size:10px;
+                margin: 100px auto;
+            }
+            .button_anim2 {
+                background-color:white;
+                border-radius:10px;
+                width:20px;
+                height:20px;
+                text-align:center;
+                border: 2px solid white;
+                text-emphasis-color: white;
+            }
 /*modal*/
 .modal {
     display: none;
