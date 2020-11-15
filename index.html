@@ -308,8 +308,8 @@
                 }
             }
             function idk(e) {
-                x=(event.x-e.offsetLeft-e.offsetWidth /2)*.65+e.offsetWidth /2-e.children[0].offsetWidth/2;
-                y=(event.y-e.offsetTop -e.offsetHeight/2)*.65+e.offsetHeight/2-e.children[0].offsetHeight/2;
+                x=(event.pageX-e.offsetLeft-e.offsetWidth /2)*.65+e.offsetWidth /2-e.children[0].offsetWidth/2;
+                y=(event.pageY-e.offsetTop -e.offsetHeight/2)*.65+e.offsetHeight/2-e.children[0].offsetHeight/2;
                 xa=80;
                 ya=40;
                 col=255;
