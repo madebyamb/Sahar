@@ -46,7 +46,7 @@ h1 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
 
 h2 {font-family: 'Kingthings_Foundation', 'Times New Roman', Times, serif;
     font-weight: normal;
-    font-size: 5vw;
+    font-size: 5ch;
     text-align: left;
     padding: 24px 0 0px 0;
     margin: 0px auto 0px auto;
@@ -223,16 +223,14 @@ ul{
 }
 /*button*/
 .button_anim {
-                background-color: black;
-                width: 200px;
-                height: 200px;
-                font-size:10px;
-                margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    margin: 0;
 }
 .button_anim2 {
 	background-color:white;
-        border-radius:10px;
-        width:20px;
+    border-radius:40px;
+    width:20px;
 	height:20px;
 	text-align:center;
 	border: 2px solid white;
