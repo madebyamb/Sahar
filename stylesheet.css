@@ -223,8 +223,8 @@ ul{
 }
 /*button*/
 .button_anim {
-    width: 200px;
-    height: 200px;
+    width: 10vw;
+    height: 10vw;
     margin: 0;
 }
 .button_anim2 {
