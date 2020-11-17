@@ -384,5 +384,8 @@ ul{
     }
 	.item3 {
 		width: 70vw;
-	}
+    }
+    .h3{
+        font-size: 56px;
+    }
 }
