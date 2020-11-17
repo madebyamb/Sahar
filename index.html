@@ -309,9 +309,9 @@
         }
     }
     function mousetrack(e) {
-        x=(event.clientX-e.parentElement.offsetLeft-e.offsetWidth /2)*.65+e.offsetWidth /2-40;
-        y=(event.clientY-e.parentElement.offsetTop -e.offsetHeight/2)*.65+e.offsetHeight/2-40;
         xa=80;
+        x=(event.clientX-e.parentElement.offsetLeft-e.offsetWidth /2)*.65+e.offsetWidth /2-xa/2;
+        y=(event.clientY-e.parentElement.offsetTop -e.offsetHeight/2)*.65+e.offsetHeight/2-xa/2;
         col=255;
 		fonts=22;
     }
