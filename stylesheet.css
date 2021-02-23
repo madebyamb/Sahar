@@ -83,7 +83,7 @@ h5 {font-family: 'HelveticaNeueLTPro-Bd', 'Helvetica Neue Lt Pro', Arial, serif;
     display: block;
     margin: 50px auto 10px auto;
     object-fit: cover;
-    width: 80vw;
+    width: 80%;
     height: 50vh;
 }
 .nounderline {
